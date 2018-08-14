@@ -1,0 +1,38 @@
+/* Defining each section background and styles
+* --------------------------------------- */
+#section1{
+	background-image: url('../assets/1027.jpg');
+}
+#section2{
+	background-image: url('../assets/1066.jpg');
+	padding: 6% 0 0 0;
+}
+#section3{
+	background-image: url('../assets/1062.jpg');
+	padding: 6% 0 0 0;
+}
+
+#section4{
+	background-image: url('../assets/822.jpg');
+	padding: 6% 0 0 0;
+}
+
+#section1,
+#section2,
+#section3,
+#section4 {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#section1 h1,
+#section2 h1,
+#section3 h1,
+#section4 h1{
+	text-shadow: 1px 5px 20px #000;
+}
+
+#infoMenu li a{
+		color: #fff;
+}
